@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+body {
+  background-color: rgb(10, 0, 10);
+  color: white;
+}
+.numbers {
+  background-color: rgb(250, 225, 215);
+  color: black;
+  height: 236px;
+  width: 542px;
+  font-size: 80px;
+  font-family:'Times New Roman', Times, serif;
+  position:fixed;
+  top: 15px;
+  left: 766px;
+  padding: 10px 20px;
+  transform:translateX(-50%);
+  z-index: 10;
+}
+.name {
+  background-color: rgb(40, 40, 40);
+  color: rgb(255, 255, 255);
+  border: none;
+  height: 303px;
+  width: 542px;
+  font-size: 56px;
+  font-family: cursive;
+  position: absolute;
+  top: 266px;
+  left: 766px;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  border-radius: 2px;
+  text-shadow: 0 0 5px rgb(122, 122, 122), 0 0 10px rgb(136, 136, 136),
+    0 0 20px rgb(136, 136, 136), 0 0 30px rgb(136, 136, 136),
+    0 0 40px rgb(136, 136, 136), 0 0 50px rgb(136, 136, 136),
+    0 0 60px rgb(136, 136, 136), 0 0 70px rgb(136, 136, 136),
+    0 0 80px rgb(113, 109, 109);
+  animation: neon-glow 1.5s infinite alternate;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.image1 {
+  background-color: rgb(243, 45, 85);
+  color: black;
+  border: none;
+  height: 555px;
+  width: 470px;
+  border-top-left-radius: 10px;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+.image2 {
+  background-color: rgb(185, 180, 255);
+  color: black;
+  border: none;
+  height: 555px;
+  width: 470px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  position: absolute;
+  top: 15px;
+  left: 1052px;
+}
+.Works {
+  background-color: #a5faaa;
+  color: black;
+  border: none;
+  height: 180px;
+  width: 900px;
+  border-top-left-radius: 2px;
+  position: absolute;
+  top: 585px;
+  left: 10px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 2px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 90 ;
+}
+
+.Fear {
+  background-color: rgb(250, 225, 215);
+  color: black;
+  border: none;
+  height: 180px;
+  width: 600px;
+  border-top-left-radius: 2px;
+  position: absolute;
+  top: 585px;
+  left: 925px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 2px;
+  border-top-right-radius: 2px;
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 80px;
+}
